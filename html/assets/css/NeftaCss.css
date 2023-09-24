@@ -1,0 +1,16 @@
+.galeria-Comercios-Admin{
+	display: flex;
+	height: 20rem;
+	gap: 1rem;
+}
+.galeria-Comercios-Admin>div{
+	flex:1 ;
+	border-radius: 1rem;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	transition: all .9s cubic-bezier(.25, .4, .45, 1.4);
+}
+.galeria-Comercios-Admin >div:hover{
+	flex: 5;
+}
