@@ -303,7 +303,7 @@
                       <div class="col-md-12">
                           <div class="flex-wrap d-flex justify-content-between align-items-center">
                               <div>
-                                  <h1>Comercios</h1>
+                                  <h1>Guías</h1>
                                   <p></p>
                               </div>
                               
@@ -340,10 +340,9 @@
                            <th>Ruta</th>
                            <th>Estación</th>
                            <th>Nombre</th>
-                           <th>Giro</th>
+                           <th>Apellidos</th>
                            <th>Puntuación</th>
                            <th>Estatus</th>
-                           <th>Paquete</th>
                            <th>Contacto</th>
                            <th>Acción</th>
                         </tr>
@@ -352,8 +351,8 @@
                         <tr>
                            <td>1</td>
                            <td>Bacalar</td>
-                           <td>La Laguna</td>
-                           <td>Restaurante</td>
+                           <td>Rafael</td>
+                           <td>Gonzalez</td>
                            <td>
                                <?php
                                 // Inicio del ciclo for
@@ -369,7 +368,6 @@
 
                            </td>
                            <td><span class="badge bg-success">Activo</span></td>
-                           <td><span class="badge bg-info">Normal</span></td>
                            <td>9831658445</td>
                            <td>
                               <div class="flex align-items-center list-user-action">
@@ -379,14 +377,20 @@
                                         </svg>                                    
                                     </span>
                                  </a>
+                                 <a class="btn btn-sm btn-icon btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Suspender"  href="#">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M18.8089 9.021C18.3574 9.021 17.7594 9.011 17.0149 9.011C15.199 9.011 13.7059 7.508 13.7059 5.675V2.459C13.7059 2.206 13.503 2 13.2525 2H7.96337C5.49604 2 3.5 4.026 3.5 6.509V17.284C3.5 19.889 5.59109 22 8.1703 22H16.0455C18.5059 22 20.5 19.987 20.5 17.502V9.471C20.5 9.217 20.298 9.012 20.0465 9.013C19.6238 9.016 19.1168 9.021 18.8089 9.021Z" fill="currentColor"></path>                                <path opacity="0.4" d="M16.0837 2.56737C15.7857 2.25637 15.2627 2.47037 15.2627 2.90137V5.53837C15.2627 6.64437 16.1737 7.55437 17.2797 7.55437C17.9767 7.56237 18.9447 7.56437 19.7677 7.56237C20.1877 7.56137 20.4017 7.05837 20.1097 6.75437C19.0547 5.65737 17.1657 3.69137 16.0837 2.56737Z" fill="currentColor"></path>                                <path d="M14.3672 14.5693H9.4242C9.0132 14.5693 8.6792 14.2363 8.6792 13.8253C8.6792 13.4143 9.0132 13.0803 9.4242 13.0803H14.3672C14.7782 13.0803 15.1122 13.4143 15.1122 13.8253C15.1122 14.2363 14.7782 14.5693 14.3672 14.5693Z" fill="currentColor"></path>                                
+                                        </svg>                                                               
+                                    </span>
+                                 </a>
                              </div>
                            </td>
                         </tr>
                         <tr>
                            <td>1</td>
                            <td>Bacalar</td>
-                           <td>Adventure Park</td>
-                           <td>Deportes Extremos</td>
+                           <td>Julian</td>
+                           <td>Carrillo</td>
                            <td>
                                <?php
                                 // Inicio del ciclo for
@@ -401,8 +405,7 @@
                                 ?>
 
                            </td>
-                           <td><span class="badge bg-success">Activo</span></td>
-                           <td><span class="badge bg-warning">Premium</span></td>
+                           <td><span class="badge bg-danger">Suspendido</span></td>
                            <td>983164285</td>
                            <td>
                               <div class="flex align-items-center list-user-action">
@@ -410,6 +413,11 @@
                                     <span class="btn-inner">
                                         <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                    <path d="M22.4541 11.3918C22.7819 11.7385 22.7819 12.2615 22.4541 12.6082C21.0124 14.1335 16.8768 18 12 18C7.12317 18 2.98759 14.1335 1.54586 12.6082C1.21811 12.2615 1.21811 11.7385 1.54586 11.3918C2.98759 9.86647 7.12317 6 12 6C16.8768 6 21.0124 9.86647 22.4541 11.3918Z" fill="#130F26" fill-opacity="0.4" stroke="#130F26"></path>                                    <circle cx="12" cy="12" r="5" stroke="#130F26"></circle>                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="9" y="9" width="6" height="6">                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    </mask>                                    <circle opacity="0.53" cx="13.5" cy="10.5" r="1.5" fill="white"></circle>                               
                                         </svg>                                    
+                                    </span>
+                                 </a>
+                                 <a class="btn btn-sm btn-icon btn-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Reestablecer"  href="#">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M18.8088 9.021C18.3573 9.021 17.7592 9.011 17.0146 9.011C15.1987 9.011 13.7055 7.508 13.7055 5.675V2.459C13.7055 2.206 13.5026 2 13.253 2H7.96363C5.49517 2 3.5 4.026 3.5 6.509V17.284C3.5 19.889 5.59022 22 8.16958 22H16.0453C18.5058 22 20.5 19.987 20.5 17.502V9.471C20.5 9.217 20.298 9.012 20.0465 9.013C19.6247 9.016 19.1168 9.021 18.8088 9.021Z" fill="currentColor"></path>                                <path opacity="0.4" d="M16.0842 2.56737C15.7852 2.25637 15.2632 2.47037 15.2632 2.90137V5.53837C15.2632 6.64437 16.1742 7.55437 17.2792 7.55437C17.9772 7.56237 18.9452 7.56437 19.7672 7.56237C20.1882 7.56137 20.4022 7.05837 20.1102 6.75437C19.0552 5.65737 17.1662 3.69137 16.0842 2.56737Z" fill="currentColor"></path>                                <path d="M14.3672 12.2364H12.6392V10.5094C12.6392 10.0984 12.3062 9.7644 11.8952 9.7644C11.4842 9.7644 11.1502 10.0984 11.1502 10.5094V12.2364H9.4232C9.0122 12.2364 8.6792 12.5704 8.6792 12.9814C8.6792 13.3924 9.0122 13.7264 9.4232 13.7264H11.1502V15.4524C11.1502 15.8634 11.4842 16.1974 11.8952 16.1974C12.3062 16.1974 12.6392 15.8634 12.6392 15.4524V13.7264H14.3672C14.7782 13.7264 15.1122 13.3924 15.1122 12.9814C15.1122 12.5704 14.7782 12.2364 14.3672 12.2364Z" fill="currentColor"></path>                                </svg>                                                                                      
                                     </span>
                                  </a>
                              </div>
@@ -424,7 +432,6 @@
                            <th>Giro</th>
                            <th>Puntuación</th>
                            <th>Estatus</th>
-                           <th>Paquete</th>
                            <th>Contacto</th>
                            <th>Acción</th>
                         </tr>
