@@ -32,7 +32,7 @@
 
       <!-- Nefta Css-->
       <link rel="stylesheet" href="../assets/css/NeftaCss.css"/>
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
   </head>
   <body class="  ">
     <!-- loader Start -->
@@ -330,58 +330,37 @@
       <div class="conatiner-fluid content-inner mt-n5 py-0">
 <!--Contenido de la pagina-->
 <div class="row">
-    <!--<div class="col-sm-12">
-        <div class="card">
-                    <button id="mostrarPopup">Mostrar Ventana Emergente</button>
-
-            <div id="popup" style="display: none;">
-              <p>Este es un mensaje en una ventana emergente.</p>
-              <button id="cerrarPopup">Cerrar</button>
-            </div>
-
-            <script>
-            $(document).ready(function(){
-              $("#mostrarPopup").click(function(){
-                $("#popup").fadeIn();
-              });
-
-              $("#cerrarPopup").click(function(){
-                $("#popup").fadeOut();
-              });
-            });
-            </script>
-        </div>
-    </div>-->
     <div class="col-sm-12">
          <div class="card">
             <div class="card-header d-flex justify-content-between">
-               <div class="header-title">                  
-                    <div class="bd-example"> 
-                        <button type="button" class="btn btn-outline-secondary btn btn-light">Crear</button>          
-                    </div>
+               <div class="header-title">
+                  <h4 class="card-title">Itinerario</h4>
                </div>
             </div>
-            <div class="card-body">
-               <div class="table-responsive">
-                  <table id="datatable" class="table table-striped" data-toggle="data-table">
+            <div class="card-body p-0">
+               <div class="table-responsive mt-4">
+                  <table id="basic-table" class="table table-striped mb-0" role="grid">
                      <thead>
                         <tr>
-                           <th>Paquete</th>
-                           <th>Número de personas</th>
-                           <th>Estación</th>
-                           <th>Costo</th>
-                           <th>Tiempo estimado</th>
-                           <th>Acción</th>
+                           <th>Lugar</th>
+                           <th>Giro</th>
+                           <th>Localidad</th>
+                           <th>Contacto</th>
+                           <th>Tiempo Estimado</th>
+                           <th>Hora Llegada</th>
+                           <th>Hora Salida</th>
+                           <th>Accion</th>
                         </tr>
                      </thead>
                      <tbody>
                         <tr>
-                           <td>Bacalar Cenotes</td>
-                           <td>1</td>
+                           <td>Aventure Park</td>
+                           <td>Deportes Extremos</td>
                            <td>Bacalar</td>
-                           <td>1,580</td>
-                           <td>24 horas</td>
-                           
+                           <td>9845631782</td>
+                           <td>2.5 horas</td>
+                           <td>10:00</td>
+                           <td>12:30</td>
                            <td>
                               <div class="flex align-items-center list-user-action">
                                  <a class="btn btn-sm btn-icon btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Visualizar"  href="#">
@@ -390,17 +369,267 @@
                                         </svg>                                    
                                     </span>
                                  </a>
+                                 <a class="btn btn-sm btn-icon btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Eliminar"  href="#">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M16.34 1.99976H7.67C4.28 1.99976 2 4.37976 2 7.91976V16.0898C2 19.6198 4.28 21.9998 7.67 21.9998H16.34C19.73 21.9998 22 19.6198 22 16.0898V7.91976C22 4.37976 19.73 1.99976 16.34 1.99976Z" fill="currentColor"></path>                                <path d="M15.0158 13.7703L13.2368 11.9923L15.0148 10.2143C15.3568 9.87326 15.3568 9.31826 15.0148 8.97726C14.6728 8.63326 14.1198 8.63426 13.7778 8.97626L11.9988 10.7543L10.2198 8.97426C9.87782 8.63226 9.32382 8.63426 8.98182 8.97426C8.64082 9.31626 8.64082 9.87126 8.98182 10.2123L10.7618 11.9923L8.98582 13.7673C8.64382 14.1093 8.64382 14.6643 8.98582 15.0043C9.15682 15.1763 9.37982 15.2613 9.60382 15.2613C9.82882 15.2613 10.0518 15.1763 10.2228 15.0053L11.9988 13.2293L13.7788 15.0083C13.9498 15.1793 14.1728 15.2643 14.3968 15.2643C14.6208 15.2643 14.8448 15.1783 15.0158 15.0083C15.3578 14.6663 15.3578 14.1123 15.0158 13.7703Z" fill="currentColor"></path>                                </svg> 
+                                    </span>
+                                 </a>
+                             </div>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Transportes Altur</td>
+                           <td>Transporte</td>
+                           <td>Bacalar</td>
+                           <td>9845631782</td>
+                           <td>5 minutos</td>
+                           <td>12:40</td>
+                           <td>12:55</td>
+                           <td>
+                              <div class="flex align-items-center list-user-action">
+                                 <a class="btn btn-sm btn-icon btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Visualizar"  href="#">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                    <path d="M22.4541 11.3918C22.7819 11.7385 22.7819 12.2615 22.4541 12.6082C21.0124 14.1335 16.8768 18 12 18C7.12317 18 2.98759 14.1335 1.54586 12.6082C1.21811 12.2615 1.21811 11.7385 1.54586 11.3918C2.98759 9.86647 7.12317 6 12 6C16.8768 6 21.0124 9.86647 22.4541 11.3918Z" fill="#130F26" fill-opacity="0.4" stroke="#130F26"></path>                                    <circle cx="12" cy="12" r="5" stroke="#130F26"></circle>                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="9" y="9" width="6" height="6">                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    </mask>                                    <circle opacity="0.53" cx="13.5" cy="10.5" r="1.5" fill="white"></circle>                               
+                                        </svg>                                    
+                                    </span>
+                                 </a>
+                                 <a class="btn btn-sm btn-icon btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Eliminar"  href="#">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M16.34 1.99976H7.67C4.28 1.99976 2 4.37976 2 7.91976V16.0898C2 19.6198 4.28 21.9998 7.67 21.9998H16.34C19.73 21.9998 22 19.6198 22 16.0898V7.91976C22 4.37976 19.73 1.99976 16.34 1.99976Z" fill="currentColor"></path>                                <path d="M15.0158 13.7703L13.2368 11.9923L15.0148 10.2143C15.3568 9.87326 15.3568 9.31826 15.0148 8.97726C14.6728 8.63326 14.1198 8.63426 13.7778 8.97626L11.9988 10.7543L10.2198 8.97426C9.87782 8.63226 9.32382 8.63426 8.98182 8.97426C8.64082 9.31626 8.64082 9.87126 8.98182 10.2123L10.7618 11.9923L8.98582 13.7673C8.64382 14.1093 8.64382 14.6643 8.98582 15.0043C9.15682 15.1763 9.37982 15.2613 9.60382 15.2613C9.82882 15.2613 10.0518 15.1763 10.2228 15.0053L11.9988 13.2293L13.7788 15.0083C13.9498 15.1793 14.1728 15.2643 14.3968 15.2643C14.6208 15.2643 14.8448 15.1783 15.0158 15.0083C15.3578 14.6663 15.3578 14.1123 15.0158 13.7703Z" fill="currentColor"></path>                                </svg> 
+                                    </span>
+                                 </a>
+                             </div>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>La Laguna</td>
+                           <td>Restaurante</td>
+                           <td>Bacalar</td>
+                           <td>9845631782</td>
+                           <td>1.5 horas</td>
+                           <td>13:05</td>
+                           <td>14:45</td>
+                           <td>
+                              <div class="flex align-items-center list-user-action">
+                                 <a class="btn btn-sm btn-icon btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Visualizar"  href="#">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                    <path d="M22.4541 11.3918C22.7819 11.7385 22.7819 12.2615 22.4541 12.6082C21.0124 14.1335 16.8768 18 12 18C7.12317 18 2.98759 14.1335 1.54586 12.6082C1.21811 12.2615 1.21811 11.7385 1.54586 11.3918C2.98759 9.86647 7.12317 6 12 6C16.8768 6 21.0124 9.86647 22.4541 11.3918Z" fill="#130F26" fill-opacity="0.4" stroke="#130F26"></path>                                    <circle cx="12" cy="12" r="5" stroke="#130F26"></circle>                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="9" y="9" width="6" height="6">                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    </mask>                                    <circle opacity="0.53" cx="13.5" cy="10.5" r="1.5" fill="white"></circle>                               
+                                        </svg>                                    
+                                    </span>
+                                 </a>
+                                 <a class="btn btn-sm btn-icon btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Eliminar"  href="#">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M16.34 1.99976H7.67C4.28 1.99976 2 4.37976 2 7.91976V16.0898C2 19.6198 4.28 21.9998 7.67 21.9998H16.34C19.73 21.9998 22 19.6198 22 16.0898V7.91976C22 4.37976 19.73 1.99976 16.34 1.99976Z" fill="currentColor"></path>                                <path d="M15.0158 13.7703L13.2368 11.9923L15.0148 10.2143C15.3568 9.87326 15.3568 9.31826 15.0148 8.97726C14.6728 8.63326 14.1198 8.63426 13.7778 8.97626L11.9988 10.7543L10.2198 8.97426C9.87782 8.63226 9.32382 8.63426 8.98182 8.97426C8.64082 9.31626 8.64082 9.87126 8.98182 10.2123L10.7618 11.9923L8.98582 13.7673C8.64382 14.1093 8.64382 14.6643 8.98582 15.0043C9.15682 15.1763 9.37982 15.2613 9.60382 15.2613C9.82882 15.2613 10.0518 15.1763 10.2228 15.0053L11.9988 13.2293L13.7788 15.0083C13.9498 15.1793 14.1728 15.2643 14.3968 15.2643C14.6208 15.2643 14.8448 15.1783 15.0158 15.0083C15.3578 14.6663 15.3578 14.1123 15.0158 13.7703Z" fill="currentColor"></path>                                </svg> 
+                                    </span>
+                                 </a>
+                             </div>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>Transportes Altur</td>
+                           <td>Transporte</td>
+                           <td>Bacalar</td>
+                           <td>9845631782</td>
+                           <td>5 minutos</td>
+                           <td>14:55</td>
+                           <td>15:10</td>
+                           <td>
+                              <div class="flex align-items-center list-user-action">
+                                 <a class="btn btn-sm btn-icon btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Visualizar"  href="#">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                    <path d="M22.4541 11.3918C22.7819 11.7385 22.7819 12.2615 22.4541 12.6082C21.0124 14.1335 16.8768 18 12 18C7.12317 18 2.98759 14.1335 1.54586 12.6082C1.21811 12.2615 1.21811 11.7385 1.54586 11.3918C2.98759 9.86647 7.12317 6 12 6C16.8768 6 21.0124 9.86647 22.4541 11.3918Z" fill="#130F26" fill-opacity="0.4" stroke="#130F26"></path>                                    <circle cx="12" cy="12" r="5" stroke="#130F26"></circle>                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="9" y="9" width="6" height="6">                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    </mask>                                    <circle opacity="0.53" cx="13.5" cy="10.5" r="1.5" fill="white"></circle>                               
+                                        </svg>                                    
+                                    </span>
+                                 </a>
+                                 <a class="btn btn-sm btn-icon btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Eliminar"  href="#">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M16.34 1.99976H7.67C4.28 1.99976 2 4.37976 2 7.91976V16.0898C2 19.6198 4.28 21.9998 7.67 21.9998H16.34C19.73 21.9998 22 19.6198 22 16.0898V7.91976C22 4.37976 19.73 1.99976 16.34 1.99976Z" fill="currentColor"></path>                                <path d="M15.0158 13.7703L13.2368 11.9923L15.0148 10.2143C15.3568 9.87326 15.3568 9.31826 15.0148 8.97726C14.6728 8.63326 14.1198 8.63426 13.7778 8.97626L11.9988 10.7543L10.2198 8.97426C9.87782 8.63226 9.32382 8.63426 8.98182 8.97426C8.64082 9.31626 8.64082 9.87126 8.98182 10.2123L10.7618 11.9923L8.98582 13.7673C8.64382 14.1093 8.64382 14.6643 8.98582 15.0043C9.15682 15.1763 9.37982 15.2613 9.60382 15.2613C9.82882 15.2613 10.0518 15.1763 10.2228 15.0053L11.9988 13.2293L13.7788 15.0083C13.9498 15.1793 14.1728 15.2643 14.3968 15.2643C14.6208 15.2643 14.8448 15.1783 15.0158 15.0083C15.3578 14.6663 15.3578 14.1123 15.0158 13.7703Z" fill="currentColor"></path>                                </svg> 
+                                    </span>
+                                 </a>
+                             </div>
+                           </td>
+                        </tr>
+                     </tbody>
+                  </table>
+                </div>
+<div class="container mt-5">
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="d-flex">
+        <button type="button" class="btn btn-info mx-2" data-bs-toggle="modal" data-bs-target="#exampleModalFullscreen">
+          Agregar Comercio
+        </button>
+        <button type="button" class="btn btn-info mx-2" data-bs-toggle="modal" data-bs-target="#ListadoTransportes">
+          Agregar Transporte
+        </button>
+        <a href="Paquetes.php" class="btn btn-success mx-2">
+          Guardar Paquete
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+                </div>
+
+                <!-- Modal Pantalla Completa Comercios-->
+                <div class="modal fade modal-fullscreen" id="exampleModalFullscreen" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                      <!--<div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Título del Modal Pantalla Completa</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>-->
+                      <div class="modal-body">
+                        <div class="row">
+    <div class="col-sm-12">
+         <div class="card">
+            <div class="card-header d-flex justify-content-between">
+               <div class="header-title">
+                  <h4 class="card-title">Listado Comercios</h4>
+               </div>
+            </div>
+            <div class="card-body">
+               <div class="table-responsive">
+                  <table id="datatable" class="table table-striped" data-toggle="data-table">
+                     <thead>
+                        <tr>
+                           <th>Ruta</th>
+                           <th>Estación</th>
+                           <th>Nombre</th>
+                           <th>Giro</th>
+                           <th>Puntuación</th>
+                           <th>Estatus</th>
+                           <th>Paquete</th>
+                           <th>Contacto</th>
+                           <th>Acción</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>1</td>
+                           <td>Bacalar</td>
+                           <td>La Laguna</td>
+                           <td>Restaurante</td>
+                           <td>
+                               <?php
+                                // Inicio del ciclo for
+                                for ($i = 0; $i < 4; $i++) {
+                                    ?>
+                                    <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.9184 14.32C17.6594 14.571 17.5404 14.934 17.5994 15.29L18.4884 20.21C18.5634 20.627 18.3874 21.049 18.0384 21.29C17.6964 21.54 17.2414 21.57 16.8684 21.37L12.4394 19.06C12.2854 18.978 12.1144 18.934 11.9394 18.929H11.6684C11.5744 18.943 11.4824 18.973 11.3984 19.019L6.96839 21.34C6.74939 21.45 6.50139 21.489 6.25839 21.45C5.66639 21.338 5.27139 20.774 5.36839 20.179L6.25839 15.259C6.31739 14.9 6.19839 14.535 5.93939 14.28L2.32839 10.78C2.02639 10.487 1.92139 10.047 2.05939 9.65C2.19339 9.254 2.53539 8.965 2.94839 8.9L7.91839 8.179C8.29639 8.14 8.62839 7.91 8.79839 7.57L10.9884 3.08C11.0404 2.98 11.1074 2.888 11.1884 2.81L11.2784 2.74C11.3254 2.688 11.3794 2.645 11.4394 2.61L11.5484 2.57L11.7184 2.5H12.1394C12.5154 2.539 12.8464 2.764 13.0194 3.1L15.2384 7.57C15.3984 7.897 15.7094 8.124 16.0684 8.179L21.0384 8.9C21.4584 8.96 21.8094 9.25 21.9484 9.65C22.0794 10.051 21.9664 10.491 21.6584 10.78L17.9184 14.32Z" fill="currentColor"></path>
+                                    </svg>
+                                    <?php
+                                }
+                                // Fin del ciclo for
+                                ?>
+
+                           </td>
+                           <td><span class="badge bg-success">Activo</span></td>
+                           <td><span class="badge bg-info">Normal</span></td>
+                           <td>9831658445</td>
+                           <td>
+                              <div class="flex align-items-center list-user-action">
+                                 <a class="btn btn-sm btn-icon btn-success" data-bs-toggle="modal" data-bs-target="#visualizarComercios" data-bs-placement="top" title="Visualizar">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                    <path d="M22.4541 11.3918C22.7819 11.7385 22.7819 12.2615 22.4541 12.6082C21.0124 14.1335 16.8768 18 12 18C7.12317 18 2.98759 14.1335 1.54586 12.6082C1.21811 12.2615 1.21811 11.7385 1.54586 11.3918C2.98759 9.86647 7.12317 6 12 6C16.8768 6 21.0124 9.86647 22.4541 11.3918Z" fill="#130F26" fill-opacity="0.4" stroke="#130F26"></path>                                    <circle cx="12" cy="12" r="5" stroke="#130F26"></circle>                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="9" y="9" width="6" height="6">                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    </mask>                                    <circle opacity="0.53" cx="13.5" cy="10.5" r="1.5" fill="white"></circle>                               
+                                        </svg>                                    
+                                    </span>
+                                 </a>
+                                 <a class="btn btn-sm btn-icon btn-primary"  data-bs-placement="top" title="Añadir"  href="VisualizarComercios.php" data-bs-toggle="modal" data-bs-target="#AñadidoModal">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M16.6667 2H7.33333C3.92889 2 2 3.92889 2 7.33333V16.6667C2 20.0622 3.92 22 7.33333 22H16.6667C20.0711 22 22 20.0622 22 16.6667V7.33333C22 3.92889 20.0711 2 16.6667 2Z" fill="currentColor"></path>                                <path d="M15.3205 12.7083H12.7495V15.257C12.7495 15.6673 12.4139 16 12 16C11.5861 16 11.2505 15.6673 11.2505 15.257V12.7083H8.67955C8.29342 12.6687 8 12.3461 8 11.9613C8 11.5765 8.29342 11.2539 8.67955 11.2143H11.2424V8.67365C11.2824 8.29088 11.6078 8 11.996 8C12.3842 8 12.7095 8.29088 12.7495 8.67365V11.2143H15.3205C15.7066 11.2539 16 11.5765 16 11.9613C16 12.3461 15.7066 12.6687 15.3205 12.7083Z" fill="currentColor"></path>                                </svg>                                       
+                                    </span>
+                                 </a>
+                             </div>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>1</td>
+                           <td>Bacalar</td>
+                           <td>El trompito</td>
+                           <td>Restaurante</td>
+                           <td>
+                               <?php
+                                // Inicio del ciclo for
+                                for ($i = 0; $i < 5; $i++) {
+                                    ?>
+                                    <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.9184 14.32C17.6594 14.571 17.5404 14.934 17.5994 15.29L18.4884 20.21C18.5634 20.627 18.3874 21.049 18.0384 21.29C17.6964 21.54 17.2414 21.57 16.8684 21.37L12.4394 19.06C12.2854 18.978 12.1144 18.934 11.9394 18.929H11.6684C11.5744 18.943 11.4824 18.973 11.3984 19.019L6.96839 21.34C6.74939 21.45 6.50139 21.489 6.25839 21.45C5.66639 21.338 5.27139 20.774 5.36839 20.179L6.25839 15.259C6.31739 14.9 6.19839 14.535 5.93939 14.28L2.32839 10.78C2.02639 10.487 1.92139 10.047 2.05939 9.65C2.19339 9.254 2.53539 8.965 2.94839 8.9L7.91839 8.179C8.29639 8.14 8.62839 7.91 8.79839 7.57L10.9884 3.08C11.0404 2.98 11.1074 2.888 11.1884 2.81L11.2784 2.74C11.3254 2.688 11.3794 2.645 11.4394 2.61L11.5484 2.57L11.7184 2.5H12.1394C12.5154 2.539 12.8464 2.764 13.0194 3.1L15.2384 7.57C15.3984 7.897 15.7094 8.124 16.0684 8.179L21.0384 8.9C21.4584 8.96 21.8094 9.25 21.9484 9.65C22.0794 10.051 21.9664 10.491 21.6584 10.78L17.9184 14.32Z" fill="currentColor"></path>
+                                    </svg>
+                                    <?php
+                                }
+                                // Fin del ciclo for
+                                ?>
+
+                           </td>
+                           <td><span class="badge bg-success">Activo</span></td>
+                           <td><span class="badge bg-info">Normal</span></td>
+                           <td>985678354</td>
+                           <td>
+                              <div class="flex align-items-center list-user-action">
+                                 <a class="btn btn-sm btn-icon btn-success" data-bs-toggle="modal" data-bs-target="#visualizarComercios" data-bs-placement="top" title="Visualizar">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                    <path d="M22.4541 11.3918C22.7819 11.7385 22.7819 12.2615 22.4541 12.6082C21.0124 14.1335 16.8768 18 12 18C7.12317 18 2.98759 14.1335 1.54586 12.6082C1.21811 12.2615 1.21811 11.7385 1.54586 11.3918C2.98759 9.86647 7.12317 6 12 6C16.8768 6 21.0124 9.86647 22.4541 11.3918Z" fill="#130F26" fill-opacity="0.4" stroke="#130F26"></path>                                    <circle cx="12" cy="12" r="5" stroke="#130F26"></circle>                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="9" y="9" width="6" height="6">                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    </mask>                                    <circle opacity="0.53" cx="13.5" cy="10.5" r="1.5" fill="white"></circle>                               
+                                        </svg>                                    
+                                    </span>
+                                 </a>
+                                 <a class="btn btn-sm btn-icon btn-primary"  data-bs-placement="top" title="Añadir"  href="VisualizarComercios.php" data-bs-toggle="modal" data-bs-target="#AñadidoModal">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M16.6667 2H7.33333C3.92889 2 2 3.92889 2 7.33333V16.6667C2 20.0622 3.92 22 7.33333 22H16.6667C20.0711 22 22 20.0622 22 16.6667V7.33333C22 3.92889 20.0711 2 16.6667 2Z" fill="currentColor"></path>                                <path d="M15.3205 12.7083H12.7495V15.257C12.7495 15.6673 12.4139 16 12 16C11.5861 16 11.2505 15.6673 11.2505 15.257V12.7083H8.67955C8.29342 12.6687 8 12.3461 8 11.9613C8 11.5765 8.29342 11.2539 8.67955 11.2143H11.2424V8.67365C11.2824 8.29088 11.6078 8 11.996 8C12.3842 8 12.7095 8.29088 12.7495 8.67365V11.2143H15.3205C15.7066 11.2539 16 11.5765 16 11.9613C16 12.3461 15.7066 12.6687 15.3205 12.7083Z" fill="currentColor"></path>                                </svg>                                       
+                                    </span>
+                                 </a>
+                             </div>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>1</td>
+                           <td>Bacalar</td>
+                           <td>Dos Santos</td>
+                           <td>Restaurante</td>
+                           <td>
+                               <?php
+                                // Inicio del ciclo for
+                                for ($i = 0; $i < 2; $i++) {
+                                    ?>
+                                    <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.9184 14.32C17.6594 14.571 17.5404 14.934 17.5994 15.29L18.4884 20.21C18.5634 20.627 18.3874 21.049 18.0384 21.29C17.6964 21.54 17.2414 21.57 16.8684 21.37L12.4394 19.06C12.2854 18.978 12.1144 18.934 11.9394 18.929H11.6684C11.5744 18.943 11.4824 18.973 11.3984 19.019L6.96839 21.34C6.74939 21.45 6.50139 21.489 6.25839 21.45C5.66639 21.338 5.27139 20.774 5.36839 20.179L6.25839 15.259C6.31739 14.9 6.19839 14.535 5.93939 14.28L2.32839 10.78C2.02639 10.487 1.92139 10.047 2.05939 9.65C2.19339 9.254 2.53539 8.965 2.94839 8.9L7.91839 8.179C8.29639 8.14 8.62839 7.91 8.79839 7.57L10.9884 3.08C11.0404 2.98 11.1074 2.888 11.1884 2.81L11.2784 2.74C11.3254 2.688 11.3794 2.645 11.4394 2.61L11.5484 2.57L11.7184 2.5H12.1394C12.5154 2.539 12.8464 2.764 13.0194 3.1L15.2384 7.57C15.3984 7.897 15.7094 8.124 16.0684 8.179L21.0384 8.9C21.4584 8.96 21.8094 9.25 21.9484 9.65C22.0794 10.051 21.9664 10.491 21.6584 10.78L17.9184 14.32Z" fill="currentColor"></path>
+                                    </svg>
+                                    <?php
+                                }
+                                // Fin del ciclo for
+                                ?>
+
+                           </td>
+                           <td><span class="badge bg-success">Activo</span></td>
+                           <td><span class="badge bg-info">Normal</span></td>
+                           <td>4567893452</td>
+                           <td>
+                              <div class="flex align-items-center list-user-action">
+                                 <a class="btn btn-sm btn-icon btn-success" data-bs-toggle="modal" data-bs-target="#visualizarComercios" data-bs-placement="top" title="Visualizar">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                    <path d="M22.4541 11.3918C22.7819 11.7385 22.7819 12.2615 22.4541 12.6082C21.0124 14.1335 16.8768 18 12 18C7.12317 18 2.98759 14.1335 1.54586 12.6082C1.21811 12.2615 1.21811 11.7385 1.54586 11.3918C2.98759 9.86647 7.12317 6 12 6C16.8768 6 21.0124 9.86647 22.4541 11.3918Z" fill="#130F26" fill-opacity="0.4" stroke="#130F26"></path>                                    <circle cx="12" cy="12" r="5" stroke="#130F26"></circle>                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="9" y="9" width="6" height="6">                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    </mask>                                    <circle opacity="0.53" cx="13.5" cy="10.5" r="1.5" fill="white"></circle>                               
+                                        </svg>                                    
+                                    </span>
+                                 </a>
+                                 <a class="btn btn-sm btn-icon btn-primary"  data-bs-placement="top" title="Añadir"  href="VisualizarComercios.php" data-bs-toggle="modal" data-bs-target="#AñadidoModal">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M16.6667 2H7.33333C3.92889 2 2 3.92889 2 7.33333V16.6667C2 20.0622 3.92 22 7.33333 22H16.6667C20.0711 22 22 20.0622 22 16.6667V7.33333C22 3.92889 20.0711 2 16.6667 2Z" fill="currentColor"></path>                                <path d="M15.3205 12.7083H12.7495V15.257C12.7495 15.6673 12.4139 16 12 16C11.5861 16 11.2505 15.6673 11.2505 15.257V12.7083H8.67955C8.29342 12.6687 8 12.3461 8 11.9613C8 11.5765 8.29342 11.2539 8.67955 11.2143H11.2424V8.67365C11.2824 8.29088 11.6078 8 11.996 8C12.3842 8 12.7095 8.29088 12.7495 8.67365V11.2143H15.3205C15.7066 11.2539 16 11.5765 16 11.9613C16 12.3461 15.7066 12.6687 15.3205 12.7083Z" fill="currentColor"></path>                                </svg>                                       
+                                    </span>
+                                 </a>
                              </div>
                            </td>
                         </tr>
                      </tbody>
                      <tfoot>
                         <tr>
-                           <th>Paquete</th>
-                           <th>Número de personas</th>
+                           <th>Ruta</th>
                            <th>Estación</th>
-                           <th>Costo</th>
-                           <th>Tiempo estimado</th>
+                           <th>Nombre</th>
+                           <th>Giro</th>
+                           <th>Puntuación</th>
+                           <th>Estatus</th>
+                           <th>Paquete</th>
+                           <th>Contacto</th>
                            <th>Acción</th>
                         </tr>
                      </tfoot>
@@ -410,6 +639,386 @@
          </div>
       </div>
 </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!--Modal para confirmacion de ser añadido-->
+                <div class="modal fade" id="AñadidoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content custom-alert"> <!-- Agregar la clase custom-alert a modal-content -->
+                                <div class="modal-body">
+                                    Añadido Correctamente!!!
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal Pantalla Completa visualización Comercios-->
+                <div class="modal fade modal-fullscreen" id="visualizarComercios" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                      <!--<div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Título del Modal Pantalla Completa</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>-->
+                      <div class="modal-body">
+                        <div class="row">
+<div class="row">
+            <div class="col-xl-12 col-lg-12">
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Comercio:</h4>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <div class="new-user-info">
+                        <form>
+                           <div class="row">
+                              <div class="form-group col-md-12">
+                                 <label class="form-label" for="fname">Nombre:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Adventure Park" disabled>
+                              </div>
+                              <hr>
+                                <h5 class="mb-3">Ubicación</h5>
+                                <div class="form-group col-md-6">
+                                 <label class="form-label" for="fname">Ruta:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="1" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Estación:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="Bacalar" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="fname">Localidad:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Bacalar" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Colonia:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="COl" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="fname">Calle 1:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Calle 1" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Calle 2:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="Calle 2" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="fname">Calle 3:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Calle 3" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Codigo Postal:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="85596" disabled>
+                              </div> 
+                              <div class="form-group col-md-12">
+                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8450.87762756955!2d-88.39157076580794!3d18.67454048990297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5bb13af78e53bb%3A0xbe3f9fb52652a59e!2sBalneario%20Municipal%20El%20Aserradero!5e1!3m2!1ses!2smx!4v1695530533049!5m2!1ses!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                              </div> 
+                           </div>
+                           <hr>
+                           <h5 class="mb-3">Lugar: </h5>
+                           <div class="row">
+                            <div class="form-group col-md-12">
+                                 <label class="form-label" for="fname">Descripción:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Lugar agradable para pasar con toda la familia" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="fname">Numero Maximo de personas:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="21" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Tiempo Estimado en el lugar:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="35 minutos" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Tiempo Estimado en el lugar:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="35 minutos" disabled>
+                              </div>  
+                              <div class="form-group col-md-12">
+                                <div class="galeria-Comercios-Admin">
+                                    <div style="background-image: url(imgs/bacalar1.jpeg);"></div>
+                                    <div style="background-image: url(imgs/bacalar2.jpg);"></div>
+                                    <div style="background-image: url(imgs/bacalar3.jpeg);"></div>
+                                    <div style="background-image: url(imgs/bacalar4.jpeg);"></div>
+                                    <div style="background-image: url(imgs/bacalar5.jpg);"></div>
+                                    <div style="background-image: url(imgs/bacalar6.jpg);"></div>
+                                    <div style="background-image: url(imgs/bacalar7.jpg);"></div>
+                                </div>
+                              </div>                            
+                           </div>
+                           
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+</div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModalFullscreen">Cerrar</button>
+                        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#AñadidoModal">Añadir</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+         </div>
+                    <!-- Modal Pantalla Completa Transporte-->
+                <div class="modal fade modal-fullscreen" id="ListadoTransportes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                      <!--<div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Título del Modal Pantalla Completa</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>-->
+                      <div class="modal-body">
+                        <div class="row">
+    <div class="col-sm-12">
+         <div class="card">
+            <div class="card-header d-flex justify-content-between">
+               <div class="header-title">
+                  <h4 class="card-title">Listado Transporte: </h4>
+               </div>
+            </div>
+            <div class="card-body">
+               <div class="table-responsive">
+                  <table id="datatable" class="table table-striped" data-toggle="data-table">
+                     <thead>
+                        <tr>
+                           <th>Ruta</th>
+                           <th>Estación</th>
+                           <th>Nombre</th>
+                           <th>Giro</th>
+                           <th>Puntuación</th>
+                           <th>Estatus</th>
+                           <th>Paquete</th>
+                           <th>Contacto</th>
+                           <th>Acción</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>1</td>
+                           <td>Bacalar</td>
+                           <td>Transportes Altur</td>
+                           <td>Transporte</td>
+                           <td>
+                               <?php
+                                // Inicio del ciclo for
+                                for ($i = 0; $i < 4; $i++) {
+                                    ?>
+                                    <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.9184 14.32C17.6594 14.571 17.5404 14.934 17.5994 15.29L18.4884 20.21C18.5634 20.627 18.3874 21.049 18.0384 21.29C17.6964 21.54 17.2414 21.57 16.8684 21.37L12.4394 19.06C12.2854 18.978 12.1144 18.934 11.9394 18.929H11.6684C11.5744 18.943 11.4824 18.973 11.3984 19.019L6.96839 21.34C6.74939 21.45 6.50139 21.489 6.25839 21.45C5.66639 21.338 5.27139 20.774 5.36839 20.179L6.25839 15.259C6.31739 14.9 6.19839 14.535 5.93939 14.28L2.32839 10.78C2.02639 10.487 1.92139 10.047 2.05939 9.65C2.19339 9.254 2.53539 8.965 2.94839 8.9L7.91839 8.179C8.29639 8.14 8.62839 7.91 8.79839 7.57L10.9884 3.08C11.0404 2.98 11.1074 2.888 11.1884 2.81L11.2784 2.74C11.3254 2.688 11.3794 2.645 11.4394 2.61L11.5484 2.57L11.7184 2.5H12.1394C12.5154 2.539 12.8464 2.764 13.0194 3.1L15.2384 7.57C15.3984 7.897 15.7094 8.124 16.0684 8.179L21.0384 8.9C21.4584 8.96 21.8094 9.25 21.9484 9.65C22.0794 10.051 21.9664 10.491 21.6584 10.78L17.9184 14.32Z" fill="currentColor"></path>
+                                    </svg>
+                                    <?php
+                                }
+                                // Fin del ciclo for
+                                ?>
+
+                           </td>
+                           <td><span class="badge bg-success">Activo</span></td>
+                           <td><span class="badge bg-info">Normal</span></td>
+                           <td>9831658445</td>
+                           <td>
+                              <div class="flex align-items-center list-user-action">
+                                 <a class="btn btn-sm btn-icon btn-success" data-bs-toggle="modal" data-bs-target="#visualizarTransporte" data-bs-placement="top" title="Visualizar">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                    <path d="M22.4541 11.3918C22.7819 11.7385 22.7819 12.2615 22.4541 12.6082C21.0124 14.1335 16.8768 18 12 18C7.12317 18 2.98759 14.1335 1.54586 12.6082C1.21811 12.2615 1.21811 11.7385 1.54586 11.3918C2.98759 9.86647 7.12317 6 12 6C16.8768 6 21.0124 9.86647 22.4541 11.3918Z" fill="#130F26" fill-opacity="0.4" stroke="#130F26"></path>                                    <circle cx="12" cy="12" r="5" stroke="#130F26"></circle>                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="9" y="9" width="6" height="6">                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    </mask>                                    <circle opacity="0.53" cx="13.5" cy="10.5" r="1.5" fill="white"></circle>                               
+                                        </svg>                                    
+                                    </span>
+                                 </a>
+                                 <a class="btn btn-sm btn-icon btn-primary"  data-bs-placement="top" title="Añadir"  href="visualizarTransporte.php" data-bs-toggle="modal" data-bs-target="#AñadidoModal">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M16.6667 2H7.33333C3.92889 2 2 3.92889 2 7.33333V16.6667C2 20.0622 3.92 22 7.33333 22H16.6667C20.0711 22 22 20.0622 22 16.6667V7.33333C22 3.92889 20.0711 2 16.6667 2Z" fill="currentColor"></path>                                <path d="M15.3205 12.7083H12.7495V15.257C12.7495 15.6673 12.4139 16 12 16C11.5861 16 11.2505 15.6673 11.2505 15.257V12.7083H8.67955C8.29342 12.6687 8 12.3461 8 11.9613C8 11.5765 8.29342 11.2539 8.67955 11.2143H11.2424V8.67365C11.2824 8.29088 11.6078 8 11.996 8C12.3842 8 12.7095 8.29088 12.7495 8.67365V11.2143H15.3205C15.7066 11.2539 16 11.5765 16 11.9613C16 12.3461 15.7066 12.6687 15.3205 12.7083Z" fill="currentColor"></path>                                </svg>                                       
+                                    </span>
+                                 </a>
+                             </div>
+                           </td>
+                        </tr>
+                        <tr>
+                           <td>1</td>
+                           <td>Bacalar</td>
+                           <td>Jaun Alonso</td>
+                           <td>Transporte</td>
+                           <td>
+                               <?php
+                                // Inicio del ciclo for
+                                for ($i = 0; $i < 5; $i++) {
+                                    ?>
+                                    <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M17.9184 14.32C17.6594 14.571 17.5404 14.934 17.5994 15.29L18.4884 20.21C18.5634 20.627 18.3874 21.049 18.0384 21.29C17.6964 21.54 17.2414 21.57 16.8684 21.37L12.4394 19.06C12.2854 18.978 12.1144 18.934 11.9394 18.929H11.6684C11.5744 18.943 11.4824 18.973 11.3984 19.019L6.96839 21.34C6.74939 21.45 6.50139 21.489 6.25839 21.45C5.66639 21.338 5.27139 20.774 5.36839 20.179L6.25839 15.259C6.31739 14.9 6.19839 14.535 5.93939 14.28L2.32839 10.78C2.02639 10.487 1.92139 10.047 2.05939 9.65C2.19339 9.254 2.53539 8.965 2.94839 8.9L7.91839 8.179C8.29639 8.14 8.62839 7.91 8.79839 7.57L10.9884 3.08C11.0404 2.98 11.1074 2.888 11.1884 2.81L11.2784 2.74C11.3254 2.688 11.3794 2.645 11.4394 2.61L11.5484 2.57L11.7184 2.5H12.1394C12.5154 2.539 12.8464 2.764 13.0194 3.1L15.2384 7.57C15.3984 7.897 15.7094 8.124 16.0684 8.179L21.0384 8.9C21.4584 8.96 21.8094 9.25 21.9484 9.65C22.0794 10.051 21.9664 10.491 21.6584 10.78L17.9184 14.32Z" fill="currentColor"></path>
+                                    </svg>
+                                    <?php
+                                }
+                                // Fin del ciclo for
+                                ?>
+
+                           </td>
+                           <td><span class="badge bg-success">Activo</span></td>
+                           <td><span class="badge bg-info">Normal</span></td>
+                           <td>985678354</td>
+                           <td>
+                              <div class="flex align-items-center list-user-action">
+                                 <a class="btn btn-sm btn-icon btn-success" data-bs-toggle="modal" data-bs-target="#visualizarTransporte" data-bs-placement="top" title="Visualizar">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                    <path d="M22.4541 11.3918C22.7819 11.7385 22.7819 12.2615 22.4541 12.6082C21.0124 14.1335 16.8768 18 12 18C7.12317 18 2.98759 14.1335 1.54586 12.6082C1.21811 12.2615 1.21811 11.7385 1.54586 11.3918C2.98759 9.86647 7.12317 6 12 6C16.8768 6 21.0124 9.86647 22.4541 11.3918Z" fill="#130F26" fill-opacity="0.4" stroke="#130F26"></path>                                    <circle cx="12" cy="12" r="5" stroke="#130F26"></circle>                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="9" y="9" width="6" height="6">                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    </mask>                                    <circle opacity="0.53" cx="13.5" cy="10.5" r="1.5" fill="white"></circle>                               
+                                        </svg>                                    
+                                    </span>
+                                 </a>
+                                 <a class="btn btn-sm btn-icon btn-primary"  data-bs-placement="top" title="Añadir"  href="visualizarTransporte.php" data-bs-toggle="modal" data-bs-target="#AñadidoModal">
+                                    <span class="btn-inner">
+                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M16.6667 2H7.33333C3.92889 2 2 3.92889 2 7.33333V16.6667C2 20.0622 3.92 22 7.33333 22H16.6667C20.0711 22 22 20.0622 22 16.6667V7.33333C22 3.92889 20.0711 2 16.6667 2Z" fill="currentColor"></path>                                <path d="M15.3205 12.7083H12.7495V15.257C12.7495 15.6673 12.4139 16 12 16C11.5861 16 11.2505 15.6673 11.2505 15.257V12.7083H8.67955C8.29342 12.6687 8 12.3461 8 11.9613C8 11.5765 8.29342 11.2539 8.67955 11.2143H11.2424V8.67365C11.2824 8.29088 11.6078 8 11.996 8C12.3842 8 12.7095 8.29088 12.7495 8.67365V11.2143H15.3205C15.7066 11.2539 16 11.5765 16 11.9613C16 12.3461 15.7066 12.6687 15.3205 12.7083Z" fill="currentColor"></path>                                </svg>                                       
+                                    </span>
+                                 </a>
+                             </div>
+                           </td>
+                        </tr>
+                     </tbody>
+                     <tfoot>
+                        <tr>
+                           <th>Ruta</th>
+                           <th>Estación</th>
+                           <th>Nombre</th>
+                           <th>Giro</th>
+                           <th>Puntuación</th>
+                           <th>Estatus</th>
+                           <th>Paquete</th>
+                           <th>Contacto</th>
+                           <th>Acción</th>
+                        </tr>
+                     </tfoot>
+                  </table>
+               </div>
+            </div>
+         </div>
+      </div>
+</div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Modal Pantalla Completa visualización Transportes-->
+                <div class="modal fade modal-fullscreen" id="visualizarTransporte" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content">
+                      <!--<div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Título del Modal Pantalla Completa</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>-->
+                      <div class="modal-body">
+                        <div class="row">
+<div class="row">
+            <div class="col-xl-12 col-lg-12">
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Transporte:</h4>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <div class="new-user-info">
+                        <form>
+                           <div class="row">
+                              <div class="form-group col-md-12">
+                                 <label class="form-label" for="fname">Nombre:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Transportes Altur" disabled>
+                              </div>
+                              <hr>
+                                <h5 class="mb-3">Ubicación</h5>
+                                <div class="form-group col-md-6">
+                                 <label class="form-label" for="fname">Ruta:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="1" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Estación:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="Bacalar" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="fname">Localidad:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Bacalar" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Colonia:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="COl" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="fname">Calle 1:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Calle 1" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Calle 2:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="Calle 2" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="fname">Calle 3:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Calle 3" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Codigo Postal:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="85596" disabled>
+                              </div> 
+                              <div class="form-group col-md-12">
+                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8450.87762756955!2d-88.39157076580794!3d18.67454048990297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5bb13af78e53bb%3A0xbe3f9fb52652a59e!2sBalneario%20Municipal%20El%20Aserradero!5e1!3m2!1ses!2smx!4v1695530533049!5m2!1ses!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                              </div> 
+                           </div>
+                           <hr>
+                           <h5 class="mb-3">Lugar: </h5>
+                           <div class="row">
+                            <div class="form-group col-md-12">
+                                 <label class="form-label" for="fname">Descripción:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Transporte seguro y comodo para cualquier tipo de destino." disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="fname">Numero Maximo de personas:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="21" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Tiempo Estimado en el lugar:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="5 minutos" disabled>
+                              </div>
+                              <div class="form-group col-md-12">
+                                <div class="galeria-Comercios-Admin">
+                                    <div style="background-image: url(imgs/transporte1.jpg);"></div>
+                                    <div style="background-image: url(imgs/transporte2.jpg);"></div>
+                                    <div style="background-image: url(imgs/transporte3.jpg);"></div>
+                                    <div style="background-image: url(imgs/transporte4.jpg);"></div>
+                                    <div style="background-image: url(imgs/transporte5.jpg);"></div>
+                                </div>
+                              </div>                            
+                           </div>
+                           
+                        </form>
+                     </div>
+                  </div>
+               </div>
+            </div>
+</div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#ListadoTransportes">Cerrar</button>
+                        <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#AñadidoModal">Añadir</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+         </div>
+
+      </div>
+
+</div>
+
+
 <!--Termina contenido de la pagina-->
       </div>
       <!-- Footer Section Start -->
@@ -502,6 +1111,7 @@
     <script src="../assets/js/hope-ui.js" defer></script>
 
     <!-- Script paquetes-->
+    <script src="../assets/js/JsNefta/JsNeftaPaquetes.js"></script>
       
   </body>
 </html>

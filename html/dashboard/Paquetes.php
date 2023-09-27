@@ -330,28 +330,6 @@
       <div class="conatiner-fluid content-inner mt-n5 py-0">
 <!--Contenido de la pagina-->
 <div class="row">
-    <!--<div class="col-sm-12">
-        <div class="card">
-                    <button id="mostrarPopup">Mostrar Ventana Emergente</button>
-
-            <div id="popup" style="display: none;">
-              <p>Este es un mensaje en una ventana emergente.</p>
-              <button id="cerrarPopup">Cerrar</button>
-            </div>
-
-            <script>
-            $(document).ready(function(){
-              $("#mostrarPopup").click(function(){
-                $("#popup").fadeIn();
-              });
-
-              $("#cerrarPopup").click(function(){
-                $("#popup").fadeOut();
-              });
-            });
-            </script>
-        </div>
-    </div>-->
     <div class="col-sm-12">
          <div class="card">
             <div class="card-header d-flex justify-content-between">
