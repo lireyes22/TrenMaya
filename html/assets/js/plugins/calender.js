@@ -29,22 +29,14 @@ if (document.querySelectorAll('#calendar1').length) {
       },
       events: [
         {
-            title: 'Click for Google',
-            url: 'http://google.com/',
-            start: moment(new Date(), 'YYYY-MM-DD').add(-20, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
-            backgroundColor: 'rgba(58,87,232,0.2)',
-            textColor: 'rgba(58,87,232,1)',
-            borderColor: 'rgba(58,87,232,1)'
-        },
-        {
-            title: 'All Day Event',
-            start: moment(new Date(), 'YYYY-MM-DD').add(-18, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
+            title: 'Reservación Habitación 4 personas',
+            start: moment(new Date(), 'YYYY-MM-DD').add(-8, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
             backgroundColor: 'rgba(108,117,125,0.2)',
             textColor: 'rgba(108,117,125,1)',
             borderColor: 'rgba(108,117,125,1)'
         },
         {
-            title: 'Long Event',
+            title: 'Reserva para fiesta 6 habitaciones dobles.',
             start: moment(new Date(), 'YYYY-MM-DD').add(-16, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
             end: moment(new Date(), 'YYYY-MM-DD').add(-13, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
             backgroundColor: 'rgba(8,130,12,0.2)',
@@ -53,8 +45,9 @@ if (document.querySelectorAll('#calendar1').length) {
         },
         {
             groupId: '999',
-            title: 'Repeating Event',
+            title: 'Reserva habitación doble.',
             start: moment(new Date(), 'YYYY-MM-DD').add(-14, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
+            end: moment(new Date(), 'YYYY-MM-DD').add(-12, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z', 
             color: '#047685',
             backgroundColor: 'rgba(4,118,133,0.2)',
             textColor: 'rgba(4,118,133,1)',
@@ -62,108 +55,69 @@ if (document.querySelectorAll('#calendar1').length) {
         },
         {
             groupId: '999',
-            title: 'Repeating Event',
-            start: moment(new Date(), 'YYYY-MM-DD').add(-12, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
-            backgroundColor: 'rgba(235,153,27,0.2)',
-            textColor: 'rgba(235,153,27,1)',
-            borderColor: 'rgba(235,153,27,1)'
+            title: 'Reserva habitación doble.',
+            start: moment(new Date(), 'YYYY-MM-DD').add(-14, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
+            end: moment(new Date(), 'YYYY-MM-DD').add(-12, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z', 
+            color: '#047685',
+            backgroundColor: 'rgba(4,118,133,0.2)',
+            textColor: 'rgba(4,118,133,1)',
+            borderColor: 'rgba(4,118,133,1)'
         },
         {
             groupId: '999',
-            title: 'Repeating Event',
-            start: moment(new Date(), 'YYYY-MM-DD').add(-10, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
-            backgroundColor: 'rgba(206,32,20,0.2)',
-            textColor: 'rgba(206,32,20,1)',
-            borderColor: 'rgba(206,32,20,1)'
+            title: 'Reserva habitación doble.',
+            start: moment(new Date(), 'YYYY-MM-DD').add(-14, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
+            end: moment(new Date(), 'YYYY-MM-DD').add(-12, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z', 
+            color: '#047685',
+            backgroundColor: 'rgba(4,118,133,0.2)',
+            textColor: 'rgba(4,118,133,1)',
+            borderColor: 'rgba(4,118,133,1)'
         },
         {
-            title: 'Birthday Party',
-            start: moment(new Date(), 'YYYY-MM-DD').add(-8, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
-            backgroundColor: 'rgba(58,87,232,0.2)',
-            textColor: 'rgba(58,87,232,1)',
-            borderColor: 'rgba(58,87,232,1)'
+            groupId: '999',
+            title: 'Reserva habitación doble.',
+            start: moment(new Date(), 'YYYY-MM-DD').add(-14, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
+            end: moment(new Date(), 'YYYY-MM-DD').add(-12, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z', 
+            color: '#047685',
+            backgroundColor: 'rgba(4,118,133,0.2)',
+            textColor: 'rgba(4,118,133,1)',
+            borderColor: 'rgba(4,118,133,1)'
         },
         {
-            title: 'Meeting',
+            title: 'Tour en razer 8 personas',
             start: moment(new Date(), 'YYYY-MM-DD').add(-6, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
             backgroundColor: 'rgba(58,87,232,0.2)',
             textColor: 'rgba(58,87,232,1)',
             borderColor: 'rgba(58,87,232,1)'
         },
         {
-            title: 'Birthday Party',
+            title: 'Reserva cena a la carta 3 personas',
             start: moment(new Date(), 'YYYY-MM-DD').add(-5, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
             backgroundColor: 'rgba(235,153,27,0.2)',
             textColor: 'rgba(235,153,27,1)',
             borderColor: 'rgba(235,153,27,1)'
         },
         {
-            title: 'Birthday Party',
+            title: 'Reserva cena a la carta 3 personas',
             start: moment(new Date(), 'YYYY-MM-DD').add(-2, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
             backgroundColor: 'rgba(235,153,27,0.2)',
             textColor: 'rgba(235,153,27,1)',
             borderColor: 'rgba(235,153,27,1)'
         },
-
-        {
-            title: 'Meeting',
-            start: moment(new Date(), 'YYYY-MM-DD').add(0, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
-            backgroundColor: 'rgba(58,87,232,0.2)',
-            textColor: 'rgba(58,87,232,1)',
-            borderColor: 'rgba(58,87,232,1)'
-        },
-        {
-            title: 'Click for Google',
-            url: 'http://google.com/',
-            start: moment(new Date(), 'YYYY-MM-DD').add(0, 'days').format('YYYY-MM-DD') + 'T06:30:00.000Z',
-            backgroundColor: 'rgba(58,87,232,0.2)',
-            textColor: 'rgba(58,87,232,1)',
-            borderColor: 'rgba(58,87,232,1)'
-        },
         {
             groupId: '999',
-            title: 'Repeating Event',
+            title: 'Tour en ponton 15 personas',
             start: moment(new Date(), 'YYYY-MM-DD').add(0, 'days').format('YYYY-MM-DD') + 'T07:30:00.000Z',
             backgroundColor: 'rgba(58,87,232,0.2)',
             textColor: 'rgba(58,87,232,1)',
             borderColor: 'rgba(58,87,232,1)'
         },
         {
-            title: 'Birthday Party',
+            title: 'Reserva cena a la carta 3 personas',
             start: moment(new Date(), 'YYYY-MM-DD').add(0, 'days').format('YYYY-MM-DD') + 'T08:30:00.000Z',
             backgroundColor: 'rgba(235,153,27,0.2)',
             textColor: 'rgba(235,153,27,1)',
             borderColor: 'rgba(235,153,27,1)'
-        },
-        {
-            title: 'Doctor Meeting',
-            start: moment(new Date(), 'YYYY-MM-DD').add(0, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
-            backgroundColor: 'rgba(235,153,27,0.2)',
-            textColor: 'rgba(235,153,27,1)',
-            borderColor: 'rgba(235,153,27,1)'
-        },
-        {
-            title: 'All Day Event',
-            start: moment(new Date(), 'YYYY-MM-DD').add(1, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
-            backgroundColor: 'rgba(58,87,232,0.2)',
-            textColor: 'rgba(58,87,232,1)',
-            borderColor: 'rgba(58,87,232,1)'
-        },
-        {
-            groupId: '999',
-            title: 'Repeating Event',
-            start: moment(new Date(), 'YYYY-MM-DD').add(8, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
-            backgroundColor: 'rgba(58,87,232,0.2)',
-            textColor: 'rgba(58,87,232,1)',
-            borderColor: 'rgba(58,87,232,1)'
-        },
-        {
-            groupId: '999',
-            title: 'Repeating Event',
-            start: moment(new Date(), 'YYYY-MM-DD').add(10, 'days').format('YYYY-MM-DD') + 'T05:30:00.000Z',
-            backgroundColor: 'rgba(58,87,232,0.2)',
-            textColor: 'rgba(58,87,232,1)',
-            borderColor: 'rgba(58,87,232,1)'
         }
       ]
   });
