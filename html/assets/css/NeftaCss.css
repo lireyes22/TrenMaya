@@ -14,3 +14,85 @@
 .galeria-Comercios-Admin >div:hover{
 	flex: 5;
 }
+
+/* Estilos para la ventana emergente */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-contenido {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para el botón de cerrar */
+#cerrarPopup {
+    margin-top: 10px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.modal-fullscreen {
+      width: 100%;
+      height: 100%;
+      padding: 0;
+      margin: 0;
+    }
+.modal-dialog-fullscreen {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+.modal-content-fullscreen {
+      height: 100%;
+      border: none;
+      border-radius: 0;
+    }
+.modal-content {
+      background-color: rgba(0, 0, 0, 0.85); /* Color de fondo oscuro con opacidad */
+      border: none;
+    }
+/* Estilos para la alerta personalizada */
+.custom-alert {
+    background-color: #4CAF50; /* Fondo verde */
+    color: #FFFFFF; /* Texto blanco */
+    border: 1px solid #45A049; /* Borde verde oscuro */
+    border-radius: 5px;
+}
+
+.custom-alert .modal-header {
+    border-bottom: 1px solid #45A049; /* Línea inferior del encabezado */
+}
+
+.custom-alert .btn-close {
+    color: #FFFFFF; /* Icono de cierre en blanco */
+}
+.contenedor {
+    width: 28px; /* Establece el ancho deseado para el contenedor */
+    height: 28px; /* Establece la altura deseada para el contenedor */
+    position: relative; /* Asegura que la imagen se ajuste al contenedor */
+}
+
+.imagen-adaptable {
+    max-width: 100%; /* La imagen se ajustará al ancho del contenedor */
+    max-height: 100%; /* La imagen se ajustará a la altura del contenedor */
+    width: auto; /* La imagen mantiene su relación de aspecto original */
+    height: auto; /* La imagen mantiene su relación de aspecto original */
+    position: absolute; /* Permite que la imagen ocupe todo el espacio del contenedor */
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}

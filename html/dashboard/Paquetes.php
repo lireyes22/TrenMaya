@@ -4,7 +4,7 @@
   <head>
     <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <title>TrenGo</title>
+      <title>EK-AHAN</title>
       
       <!-- Favicon -->
       <link rel="shortcut icon" href="../assets/images/favicon.ico" />
@@ -29,7 +29,10 @@
       
       <!-- RTL Css -->
       <link rel="stylesheet" href="../assets/css/rtl.min.css"/>
-      
+
+      <!-- Nefta Css-->
+      <link rel="stylesheet" href="../assets/css/NeftaCss.css"/>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
   <body class="  ">
     <!-- loader Start -->
@@ -48,20 +51,14 @@
                 <!--Logo start-->
                 <div class="logo-main">
                     <div class="logo-normal">
-                        <svg class=" icon-30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="-0.757324" y="19.2427" width="28" height="4" rx="2" transform="rotate(-45 -0.757324 19.2427)" fill="currentColor"/>
-                            <rect x="7.72803" y="27.728" width="28" height="4" rx="2" transform="rotate(-45 7.72803 27.728)" fill="currentColor"/>
-                            <rect x="10.5366" y="16.3945" width="16" height="4" rx="2" transform="rotate(45 10.5366 16.3945)" fill="currentColor"/>
-                            <rect x="10.5562" y="-0.556152" width="28" height="4" rx="2" transform="rotate(45 10.5562 -0.556152)" fill="currentColor"/>
-                        </svg>
+                        <div class="contenedor">
+                            <img src="imgs/icono.png" alt="Mi Icono PNG" class="imagen-adaptable">
+                        </div>
                     </div>
                     <div class="logo-mini">
-                        <svg class=" icon-30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="-0.757324" y="19.2427" width="28" height="4" rx="2" transform="rotate(-45 -0.757324 19.2427)" fill="currentColor"/>
-                            <rect x="7.72803" y="27.728" width="28" height="4" rx="2" transform="rotate(-45 7.72803 27.728)" fill="currentColor"/>
-                            <rect x="10.5366" y="16.3945" width="16" height="4" rx="2" transform="rotate(45 10.5366 16.3945)" fill="currentColor"/>
-                            <rect x="10.5562" y="-0.556152" width="28" height="4" rx="2" transform="rotate(45 10.5562 -0.556152)" fill="currentColor"/>
-                        </svg>
+                        <div class="contenedor">
+                            <img src="imgs/icono.png" alt="Mi Icono PNG" class="imagen-adaptable">
+                        </div>
                     </div>
                 </div>
                 <!--logo End-->               
@@ -87,7 +84,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="collapse" href="#sidebar-maps" role="button" aria-expanded="false" aria-controls="sidebar-maps">
+                        <a class="nav-link" aria-current="page" href="index2.html" aria-controls="sidebar-maps">
                             <i class="icon">
                                 <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd" d="M8.53162 2.93677C10.7165 1.66727 13.402 1.68946 15.5664 2.99489C17.7095 4.32691 19.012 6.70418 18.9998 9.26144C18.95 11.8019 17.5533 14.19 15.8075 16.0361C14.7998 17.1064 13.6726 18.0528 12.4488 18.856C12.3228 18.9289 12.1848 18.9777 12.0415 19C11.9036 18.9941 11.7693 18.9534 11.6508 18.8814C9.78243 17.6746 8.14334 16.134 6.81233 14.334C5.69859 12.8314 5.06584 11.016 5 9.13442C4.99856 6.57225 6.34677 4.20627 8.53162 2.93677ZM9.79416 10.1948C10.1617 11.1008 11.0292 11.6918 11.9916 11.6918C12.6221 11.6964 13.2282 11.4438 13.6748 10.9905C14.1214 10.5371 14.3715 9.92064 14.3692 9.27838C14.3726 8.29804 13.7955 7.41231 12.9073 7.03477C12.0191 6.65723 10.995 6.86235 10.3133 7.55435C9.63159 8.24635 9.42664 9.28872 9.79416 10.1948Z" fill="currentColor"></path>
@@ -236,20 +233,14 @@
                 <!--Logo start-->
                 <div class="logo-main">
                     <div class="logo-normal">
-                        <svg class="text-primary icon-30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="-0.757324" y="19.2427" width="28" height="4" rx="2" transform="rotate(-45 -0.757324 19.2427)" fill="currentColor"/>
-                            <rect x="7.72803" y="27.728" width="28" height="4" rx="2" transform="rotate(-45 7.72803 27.728)" fill="currentColor"/>
-                            <rect x="10.5366" y="16.3945" width="16" height="4" rx="2" transform="rotate(45 10.5366 16.3945)" fill="currentColor"/>
-                            <rect x="10.5562" y="-0.556152" width="28" height="4" rx="2" transform="rotate(45 10.5562 -0.556152)" fill="currentColor"/>
-                        </svg>
+                        <div class="contenedor">
+                            <img src="imgs/icono.png" alt="Mi Icono PNG" class="imagen-adaptable">
+                        </div>
                     </div>
                     <div class="logo-mini">
-                        <svg class="text-primary icon-30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect x="-0.757324" y="19.2427" width="28" height="4" rx="2" transform="rotate(-45 -0.757324 19.2427)" fill="currentColor"/>
-                            <rect x="7.72803" y="27.728" width="28" height="4" rx="2" transform="rotate(-45 7.72803 27.728)" fill="currentColor"/>
-                            <rect x="10.5366" y="16.3945" width="16" height="4" rx="2" transform="rotate(45 10.5366 16.3945)" fill="currentColor"/>
-                            <rect x="10.5562" y="-0.556152" width="28" height="4" rx="2" transform="rotate(45 10.5562 -0.556152)" fill="currentColor"/>
-                        </svg>
+                        <div class="contenedor">
+                            <img src="imgs/icono.png" alt="Mi Icono PNG" class="imagen-adaptable">
+                        </div>
                     </div>
                 </div>
                 <!--logo End-->
@@ -305,7 +296,7 @@
                       <div class="col-md-12">
                           <div class="flex-wrap d-flex justify-content-between align-items-center">
                               <div>
-                                  <h1>Comercios</h1>
+                                  <h1>Paquetes</h1>
                                   <p></p>
                               </div>
                               
@@ -330,8 +321,29 @@
     <div class="col-sm-12">
          <div class="card">
             <div class="card-header d-flex justify-content-between">
-               <div class="header-title">
-                  <h4 class="card-title">Listado</h4>
+               <div class="header-title">                  
+                    <div class="bd-example"> 
+                        <h4 class="card-title">Crear Paquete:</h4>
+                        <div class="form-group row">
+        <div class="col-9">
+            <select class="form-select mb-3 shadow-none">
+                <option selected="">Seleccionar Estación:</option>
+                <option value="1">Bacalar</option>
+                <option value="2">Tulum</option>
+                <option value="3">Felipe Carrillo Puerto</option>
+            </select>
+        </div>
+        <div class="col-3">
+            <a class="nav-link" aria-current="page" href="CrearPaquete.php">
+                <button type="button" class="btn btn-primary"><i class="icon">
+                    <svg class="icon-22" width="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M16.6667 2H7.33333C3.92889 2 2 3.92889 2 7.33333V16.6667C2 20.0622 3.92 22 7.33333 22H16.6667C20.0711 22 22 20.0622 22 16.6667V7.33333C22 3.92889 20.0711 2 16.6667 2Z" fill="currentColor"></path><path d="M15.3205 12.7083H12.7495V15.257C12.7495 15.6673 12.4139 16 12 16C11.5861 16 11.2505 15.6673 11.2505 15.257V12.7083H8.67955C8.29342 12.6687 8 12.3461 8 11.9613C8 11.5765 8.29342 11.2539 8.67955 11.2143H11.2424V8.67365C11.2824 8.29088 11.6078 8 11.996 8C12.3842 8 12.7095 8.29088 12.7495 8.67365V11.2143H15.3205C15.7066 11.2539 16 11.5765 16 11.9613C16 12.3461 15.7066 12.6687 15.3205 12.7083Z" fill="currentColor"></path>
+                </svg>                                      
+                </i></button>
+            </a>
+        </div>
+    </div>     
+                        
+                    </div>
                </div>
             </div>
             <div class="card-body">
@@ -339,73 +351,22 @@
                   <table id="datatable" class="table table-striped" data-toggle="data-table">
                      <thead>
                         <tr>
-                           <th>Ruta</th>
-                           <th>Estación</th>
-                           <th>Nombre</th>
-                           <th>Giro</th>
-                           <th>Puntuación</th>
-                           <th>Estatus</th>
                            <th>Paquete</th>
-                           <th>Contacto</th>
+                           <th>Número de personas</th>
+                           <th>Estación</th>
+                           <th>Costo</th>
+                           <th>Tiempo estimado</th>
                            <th>Acción</th>
                         </tr>
                      </thead>
                      <tbody>
                         <tr>
+                           <td>Bacalar Cenotes</td>
                            <td>1</td>
                            <td>Bacalar</td>
-                           <td>La Laguna</td>
-                           <td>Restaurante</td>
-                           <td>
-                               <?php
-                                // Inicio del ciclo for
-                                for ($i = 0; $i < 4; $i++) {
-                                    ?>
-                                    <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17.9184 14.32C17.6594 14.571 17.5404 14.934 17.5994 15.29L18.4884 20.21C18.5634 20.627 18.3874 21.049 18.0384 21.29C17.6964 21.54 17.2414 21.57 16.8684 21.37L12.4394 19.06C12.2854 18.978 12.1144 18.934 11.9394 18.929H11.6684C11.5744 18.943 11.4824 18.973 11.3984 19.019L6.96839 21.34C6.74939 21.45 6.50139 21.489 6.25839 21.45C5.66639 21.338 5.27139 20.774 5.36839 20.179L6.25839 15.259C6.31739 14.9 6.19839 14.535 5.93939 14.28L2.32839 10.78C2.02639 10.487 1.92139 10.047 2.05939 9.65C2.19339 9.254 2.53539 8.965 2.94839 8.9L7.91839 8.179C8.29639 8.14 8.62839 7.91 8.79839 7.57L10.9884 3.08C11.0404 2.98 11.1074 2.888 11.1884 2.81L11.2784 2.74C11.3254 2.688 11.3794 2.645 11.4394 2.61L11.5484 2.57L11.7184 2.5H12.1394C12.5154 2.539 12.8464 2.764 13.0194 3.1L15.2384 7.57C15.3984 7.897 15.7094 8.124 16.0684 8.179L21.0384 8.9C21.4584 8.96 21.8094 9.25 21.9484 9.65C22.0794 10.051 21.9664 10.491 21.6584 10.78L17.9184 14.32Z" fill="currentColor"></path>
-                                    </svg>
-                                    <?php
-                                }
-                                // Fin del ciclo for
-                                ?>
-
-                           </td>
-                           <td><span class="badge bg-success">Activo</span></td>
-                           <td><span class="badge bg-info">Normal</span></td>
-                           <td>9831658445</td>
-                           <td>
-                              <div class="flex align-items-center list-user-action">
-                                 <a class="btn btn-sm btn-icon btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Visualizar"  href="#">
-                                    <span class="btn-inner">
-                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                    <path d="M22.4541 11.3918C22.7819 11.7385 22.7819 12.2615 22.4541 12.6082C21.0124 14.1335 16.8768 18 12 18C7.12317 18 2.98759 14.1335 1.54586 12.6082C1.21811 12.2615 1.21811 11.7385 1.54586 11.3918C2.98759 9.86647 7.12317 6 12 6C16.8768 6 21.0124 9.86647 22.4541 11.3918Z" fill="#130F26" fill-opacity="0.4" stroke="#130F26"></path>                                    <circle cx="12" cy="12" r="5" stroke="#130F26"></circle>                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="9" y="9" width="6" height="6">                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    </mask>                                    <circle opacity="0.53" cx="13.5" cy="10.5" r="1.5" fill="white"></circle>                               
-                                        </svg>                                    
-                                    </span>
-                                 </a>
-                             </div>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td>1</td>
-                           <td>Bacalar</td>
-                           <td>Adventure Park</td>
-                           <td>Deportes Extremos</td>
-                           <td>
-                               <?php
-                                // Inicio del ciclo for
-                                for ($i = 0; $i < 2; $i++) {
-                                    ?>
-                                    <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17.9184 14.32C17.6594 14.571 17.5404 14.934 17.5994 15.29L18.4884 20.21C18.5634 20.627 18.3874 21.049 18.0384 21.29C17.6964 21.54 17.2414 21.57 16.8684 21.37L12.4394 19.06C12.2854 18.978 12.1144 18.934 11.9394 18.929H11.6684C11.5744 18.943 11.4824 18.973 11.3984 19.019L6.96839 21.34C6.74939 21.45 6.50139 21.489 6.25839 21.45C5.66639 21.338 5.27139 20.774 5.36839 20.179L6.25839 15.259C6.31739 14.9 6.19839 14.535 5.93939 14.28L2.32839 10.78C2.02639 10.487 1.92139 10.047 2.05939 9.65C2.19339 9.254 2.53539 8.965 2.94839 8.9L7.91839 8.179C8.29639 8.14 8.62839 7.91 8.79839 7.57L10.9884 3.08C11.0404 2.98 11.1074 2.888 11.1884 2.81L11.2784 2.74C11.3254 2.688 11.3794 2.645 11.4394 2.61L11.5484 2.57L11.7184 2.5H12.1394C12.5154 2.539 12.8464 2.764 13.0194 3.1L15.2384 7.57C15.3984 7.897 15.7094 8.124 16.0684 8.179L21.0384 8.9C21.4584 8.96 21.8094 9.25 21.9484 9.65C22.0794 10.051 21.9664 10.491 21.6584 10.78L17.9184 14.32Z" fill="currentColor"></path>
-                                    </svg>
-                                    <?php
-                                }
-                                // Fin del ciclo for
-                                ?>
-
-                           </td>
-                           <td><span class="badge bg-success">Activo</span></td>
-                           <td><span class="badge bg-warning">Premium</span></td>
-                           <td>983164285</td>
+                           <td>1,580</td>
+                           <td>24 horas</td>
+                           
                            <td>
                               <div class="flex align-items-center list-user-action">
                                  <a class="btn btn-sm btn-icon btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Visualizar"  href="#">
@@ -420,14 +381,11 @@
                      </tbody>
                      <tfoot>
                         <tr>
-                           <th>Ruta</th>
-                           <th>Estación</th>
-                           <th>Nombre</th>
-                           <th>Giro</th>
-                           <th>Puntuación</th>
-                           <th>Estatus</th>
                            <th>Paquete</th>
-                           <th>Contacto</th>
+                           <th>Número de personas</th>
+                           <th>Estación</th>
+                           <th>Costo</th>
+                           <th>Tiempo estimado</th>
                            <th>Acción</th>
                         </tr>
                      </tfoot>
@@ -527,6 +485,8 @@
     
     <!-- App Script -->
     <script src="../assets/js/hope-ui.js" defer></script>
-    
+
+    <!-- Script paquetes-->
+      
   </body>
 </html>

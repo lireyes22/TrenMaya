@@ -31,7 +31,7 @@
       <link rel="stylesheet" href="../assets/css/rtl.min.css"/>
 
       <!--Css Nefta-->
-      <link rel="stylesheet" href="../assets/css/NeftaCss.css" />
+      <link rel="stylesheet" href="../assets/css/NeftaCss.css"/>
       
   </head>
   <body class="  ">
@@ -134,7 +134,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../../html/dashboard/ListaGuias.php">
+                        <a class="nav-link" aria-current="page" href="../../html/dashboard/ListaGuias.php">
                             <i class="icon">
                                 <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path d="M11.9488 14.54C8.49884 14.54 5.58789 15.1038 5.58789 17.2795C5.58789 19.4562 8.51765 20.0001 11.9488 20.0001C15.3988 20.0001 18.3098 19.4364 18.3098 17.2606C18.3098 15.084 15.38 14.54 11.9488 14.54Z" fill="currentColor"></path>                                <path opacity="0.4" d="M11.949 12.467C14.2851 12.467 16.1583 10.5831 16.1583 8.23351C16.1583 5.88306 14.2851 4 11.949 4C9.61293 4 7.73975 5.88306 7.73975 8.23351C7.73975 10.5831 9.61293 12.467 11.949 12.467Z" fill="currentColor"></path>                                <path opacity="0.4" d="M21.0881 9.21923C21.6925 6.84176 19.9205 4.70654 17.664 4.70654C17.4187 4.70654 17.1841 4.73356 16.9549 4.77949C16.9244 4.78669 16.8904 4.802 16.8725 4.82902C16.8519 4.86324 16.8671 4.90917 16.8895 4.93889C17.5673 5.89528 17.9568 7.0597 17.9568 8.30967C17.9568 9.50741 17.5996 10.6241 16.9728 11.5508C16.9083 11.6462 16.9656 11.775 17.0793 11.7948C17.2369 11.8227 17.3981 11.8371 17.5629 11.8416C19.2059 11.8849 20.6807 10.8213 21.0881 9.21923Z" fill="currentColor"></path>                                <path d="M22.8094 14.817C22.5086 14.1722 21.7824 13.73 20.6783 13.513C20.1572 13.3851 18.747 13.205 17.4352 13.2293C17.4155 13.232 17.4048 13.2455 17.403 13.2545C17.4003 13.2671 17.4057 13.2887 17.4316 13.3022C18.0378 13.6039 20.3811 14.916 20.0865 17.6834C20.074 17.8032 20.1698 17.9068 20.2888 17.8888C20.8655 17.8059 22.3492 17.4853 22.8094 16.4866C23.0637 15.9589 23.0637 15.3456 22.8094 14.817Z" fill="currentColor"></path>                                <path opacity="0.4" d="M7.04459 4.77973C6.81626 4.7329 6.58077 4.70679 6.33543 4.70679C4.07901 4.70679 2.30701 6.84201 2.9123 9.21947C3.31882 10.8216 4.79355 11.8851 6.43661 11.8419C6.60136 11.8374 6.76343 11.8221 6.92013 11.7951C7.03384 11.7753 7.09115 11.6465 7.02668 11.551C6.3999 10.6234 6.04263 9.50765 6.04263 8.30991C6.04263 7.05904 6.43303 5.89462 7.11085 4.93913C7.13234 4.90941 7.14845 4.86348 7.12696 4.82926C7.10906 4.80135 7.07593 4.78694 7.04459 4.77973Z" fill="currentColor"></path>                                <path d="M3.32156 13.5127C2.21752 13.7297 1.49225 14.1719 1.19139 14.8167C0.936203 15.3453 0.936203 15.9586 1.19139 16.4872C1.65163 17.4851 3.13531 17.8066 3.71195 17.8885C3.83104 17.9065 3.92595 17.8038 3.91342 17.6832C3.61883 14.9167 5.9621 13.6046 6.56918 13.3029C6.59425 13.2885 6.59962 13.2677 6.59694 13.2542C6.59515 13.2452 6.5853 13.2317 6.5656 13.2299C5.25294 13.2047 3.84358 13.3848 3.32156 13.5127Z" fill="currentColor"></path>                                </svg>  
                             </i>
@@ -159,7 +159,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="../../html/dashboard/ListaComercio.php">
+                        <a class="nav-link active" aria-current="page" href="../../html/dashboard/ListaComercio.php">
                             <i class="icon">
                                 <svg class="icon-20" width="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path d="M9.14373 20.7821V17.7152C9.14372 16.9381 9.77567 16.3067 10.5584 16.3018H13.4326C14.2189 16.3018 14.8563 16.9346 14.8563 17.7152V20.7732C14.8562 21.4473 15.404 21.9951 16.0829 22H18.0438C18.9596 22.0023 19.8388 21.6428 20.4872 21.0007C21.1356 20.3586 21.5 19.4868 21.5 18.5775V9.86585C21.5 9.13139 21.1721 8.43471 20.6046 7.9635L13.943 2.67427C12.7785 1.74912 11.1154 1.77901 9.98539 2.74538L3.46701 7.9635C2.87274 8.42082 2.51755 9.11956 2.5 9.86585V18.5686C2.5 20.4637 4.04738 22 5.95617 22H7.87229C8.19917 22.0023 8.51349 21.8751 8.74547 21.6464C8.97746 21.4178 9.10793 21.1067 9.10792 20.7821H9.14373Z" fill="currentColor"></path>                                </svg>                            
                             </i>
@@ -233,14 +233,20 @@
                 <!--Logo start-->
                 <div class="logo-main">
                     <div class="logo-normal">
-                        <div class="contenedor">
-                            <img src="imgs/icono.png" alt="Mi Icono PNG" class="imagen-adaptable">
-                        </div>
+                        <svg class="text-primary icon-30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="-0.757324" y="19.2427" width="28" height="4" rx="2" transform="rotate(-45 -0.757324 19.2427)" fill="currentColor"/>
+                            <rect x="7.72803" y="27.728" width="28" height="4" rx="2" transform="rotate(-45 7.72803 27.728)" fill="currentColor"/>
+                            <rect x="10.5366" y="16.3945" width="16" height="4" rx="2" transform="rotate(45 10.5366 16.3945)" fill="currentColor"/>
+                            <rect x="10.5562" y="-0.556152" width="28" height="4" rx="2" transform="rotate(45 10.5562 -0.556152)" fill="currentColor"/>
+                        </svg>
                     </div>
                     <div class="logo-mini">
-                        <div class="contenedor">
-                            <img src="imgs/icono.png" alt="Mi Icono PNG" class="imagen-adaptable">
-                        </div>
+                        <svg class="text-primary icon-30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect x="-0.757324" y="19.2427" width="28" height="4" rx="2" transform="rotate(-45 -0.757324 19.2427)" fill="currentColor"/>
+                            <rect x="7.72803" y="27.728" width="28" height="4" rx="2" transform="rotate(-45 7.72803 27.728)" fill="currentColor"/>
+                            <rect x="10.5366" y="16.3945" width="16" height="4" rx="2" transform="rotate(45 10.5366 16.3945)" fill="currentColor"/>
+                            <rect x="10.5562" y="-0.556152" width="28" height="4" rx="2" transform="rotate(45 10.5562 -0.556152)" fill="currentColor"/>
+                        </svg>
                     </div>
                 </div>
                 <!--logo End-->
@@ -296,7 +302,7 @@
                       <div class="col-md-12">
                           <div class="flex-wrap d-flex justify-content-between align-items-center">
                               <div>
-                                  <h1>Guías</h1>
+                                  <h1>Comercios</h1>
                                   <p></p>
                               </div>
                               
@@ -318,122 +324,96 @@
       <div class="conatiner-fluid content-inner mt-n5 py-0">
 <!--Contenido de la pagina-->
 <div class="row">
-    <div class="col-sm-12">
-         <div class="card">
-            <div class="card-header d-flex justify-content-between">
-               <div class="header-title">
-                  <h4 class="card-title">Listado</h4>
+    <div class="col-xl-3 col-lg-4">
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Cliente:</h4>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <form>
+                        <div class="form-group col-md-12">
+                            <label class="form-label" for="fname">Nombre:</label>
+                            <input type="text" class="form-control" id="fname" value="Javier" disabled>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label class="form-label" for="fname">Apellido Paterno:</label>
+                            <input type="text" class="form-control" id="fname" value="Ortega" disabled>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label class="form-label" for="fname">Apellido Materno:</label>
+                            <input type="text" class="form-control" id="fname" value="Villamil" disabled>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label class="form-label" for="fname">Celular:</label>
+                            <input type="text" class="form-control" id="fname" value="9864658461" disabled>
+                        </div>
+                        <div class="form-group col-md-12">
+                            <label class="form-label" for="fname">Número de negocios:</label>
+                            <input type="text" class="form-control" id="fname" value="2" disabled>
+                        </div>
+                     </form>
+                  </div>
                </div>
             </div>
-            <div class="card-body">
-               <div class="table-responsive">
-                  <table id="datatable" class="table table-striped" data-toggle="data-table">
-                     <thead>
-                        <tr>
-                           <th>Ruta</th>
-                           <th>Estación</th>
-                           <th>Nombre</th>
-                           <th>Apellidos</th>
-                           <th>Puntuación</th>
-                           <th>Estatus</th>
-                           <th>Contacto</th>
-                           <th>Acción</th>
-                        </tr>
-                     </thead>
-                     <tbody>
-                        <tr>
-                           <td>1</td>
-                           <td>Bacalar</td>
-                           <td>Rafael</td>
-                           <td>Gonzalez</td>
-                           <td>
-                               <?php
-                                // Inicio del ciclo for
-                                for ($i = 0; $i < 4; $i++) {
-                                    ?>
-                                    <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17.9184 14.32C17.6594 14.571 17.5404 14.934 17.5994 15.29L18.4884 20.21C18.5634 20.627 18.3874 21.049 18.0384 21.29C17.6964 21.54 17.2414 21.57 16.8684 21.37L12.4394 19.06C12.2854 18.978 12.1144 18.934 11.9394 18.929H11.6684C11.5744 18.943 11.4824 18.973 11.3984 19.019L6.96839 21.34C6.74939 21.45 6.50139 21.489 6.25839 21.45C5.66639 21.338 5.27139 20.774 5.36839 20.179L6.25839 15.259C6.31739 14.9 6.19839 14.535 5.93939 14.28L2.32839 10.78C2.02639 10.487 1.92139 10.047 2.05939 9.65C2.19339 9.254 2.53539 8.965 2.94839 8.9L7.91839 8.179C8.29639 8.14 8.62839 7.91 8.79839 7.57L10.9884 3.08C11.0404 2.98 11.1074 2.888 11.1884 2.81L11.2784 2.74C11.3254 2.688 11.3794 2.645 11.4394 2.61L11.5484 2.57L11.7184 2.5H12.1394C12.5154 2.539 12.8464 2.764 13.0194 3.1L15.2384 7.57C15.3984 7.897 15.7094 8.124 16.0684 8.179L21.0384 8.9C21.4584 8.96 21.8094 9.25 21.9484 9.65C22.0794 10.051 21.9664 10.491 21.6584 10.78L17.9184 14.32Z" fill="currentColor"></path>
-                                    </svg>
-                                    <?php
-                                }
-                                // Fin del ciclo for
-                                ?>
-
-                           </td>
-                           <td><span class="badge bg-success">Activo</span></td>
-                           <td>9831658445</td>
-                           <td>
-                              <div class="flex align-items-center list-user-action">
-                                 <a class="btn btn-sm btn-icon btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Visualizar"  href="#">
-                                    <span class="btn-inner">
-                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                    <path d="M22.4541 11.3918C22.7819 11.7385 22.7819 12.2615 22.4541 12.6082C21.0124 14.1335 16.8768 18 12 18C7.12317 18 2.98759 14.1335 1.54586 12.6082C1.21811 12.2615 1.21811 11.7385 1.54586 11.3918C2.98759 9.86647 7.12317 6 12 6C16.8768 6 21.0124 9.86647 22.4541 11.3918Z" fill="#130F26" fill-opacity="0.4" stroke="#130F26"></path>                                    <circle cx="12" cy="12" r="5" stroke="#130F26"></circle>                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="9" y="9" width="6" height="6">                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    </mask>                                    <circle opacity="0.53" cx="13.5" cy="10.5" r="1.5" fill="white"></circle>                               
-                                        </svg>                                    
-                                    </span>
-                                 </a>
-                                 <a class="btn btn-sm btn-icon btn-danger" data-bs-toggle="tooltip" data-bs-placement="top" title="Suspender"  href="#">
-                                    <span class="btn-inner">
-                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M18.8089 9.021C18.3574 9.021 17.7594 9.011 17.0149 9.011C15.199 9.011 13.7059 7.508 13.7059 5.675V2.459C13.7059 2.206 13.503 2 13.2525 2H7.96337C5.49604 2 3.5 4.026 3.5 6.509V17.284C3.5 19.889 5.59109 22 8.1703 22H16.0455C18.5059 22 20.5 19.987 20.5 17.502V9.471C20.5 9.217 20.298 9.012 20.0465 9.013C19.6238 9.016 19.1168 9.021 18.8089 9.021Z" fill="currentColor"></path>                                <path opacity="0.4" d="M16.0837 2.56737C15.7857 2.25637 15.2627 2.47037 15.2627 2.90137V5.53837C15.2627 6.64437 16.1737 7.55437 17.2797 7.55437C17.9767 7.56237 18.9447 7.56437 19.7677 7.56237C20.1877 7.56137 20.4017 7.05837 20.1097 6.75437C19.0547 5.65737 17.1657 3.69137 16.0837 2.56737Z" fill="currentColor"></path>                                <path d="M14.3672 14.5693H9.4242C9.0132 14.5693 8.6792 14.2363 8.6792 13.8253C8.6792 13.4143 9.0132 13.0803 9.4242 13.0803H14.3672C14.7782 13.0803 15.1122 13.4143 15.1122 13.8253C15.1122 14.2363 14.7782 14.5693 14.3672 14.5693Z" fill="currentColor"></path>                                
-                                        </svg>                                                               
-                                    </span>
-                                 </a>
-                             </div>
-                           </td>
-                        </tr>
-                        <tr>
-                           <td>1</td>
-                           <td>Bacalar</td>
-                           <td>Julian</td>
-                           <td>Carrillo</td>
-                           <td>
-                               <?php
-                                // Inicio del ciclo for
-                                for ($i = 0; $i < 2; $i++) {
-                                    ?>
-                                    <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M17.9184 14.32C17.6594 14.571 17.5404 14.934 17.5994 15.29L18.4884 20.21C18.5634 20.627 18.3874 21.049 18.0384 21.29C17.6964 21.54 17.2414 21.57 16.8684 21.37L12.4394 19.06C12.2854 18.978 12.1144 18.934 11.9394 18.929H11.6684C11.5744 18.943 11.4824 18.973 11.3984 19.019L6.96839 21.34C6.74939 21.45 6.50139 21.489 6.25839 21.45C5.66639 21.338 5.27139 20.774 5.36839 20.179L6.25839 15.259C6.31739 14.9 6.19839 14.535 5.93939 14.28L2.32839 10.78C2.02639 10.487 1.92139 10.047 2.05939 9.65C2.19339 9.254 2.53539 8.965 2.94839 8.9L7.91839 8.179C8.29639 8.14 8.62839 7.91 8.79839 7.57L10.9884 3.08C11.0404 2.98 11.1074 2.888 11.1884 2.81L11.2784 2.74C11.3254 2.688 11.3794 2.645 11.4394 2.61L11.5484 2.57L11.7184 2.5H12.1394C12.5154 2.539 12.8464 2.764 13.0194 3.1L15.2384 7.57C15.3984 7.897 15.7094 8.124 16.0684 8.179L21.0384 8.9C21.4584 8.96 21.8094 9.25 21.9484 9.65C22.0794 10.051 21.9664 10.491 21.6584 10.78L17.9184 14.32Z" fill="currentColor"></path>
-                                    </svg>
-                                    <?php
-                                }
-                                // Fin del ciclo for
-                                ?>
-
-                           </td>
-                           <td><span class="badge bg-danger">Suspendido</span></td>
-                           <td>983164285</td>
-                           <td>
-                              <div class="flex align-items-center list-user-action">
-                                 <a class="btn btn-sm btn-icon btn-success" data-bs-toggle="tooltip" data-bs-placement="top" title="Visualizar"  href="#">
-                                    <span class="btn-inner">
-                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                    <path d="M22.4541 11.3918C22.7819 11.7385 22.7819 12.2615 22.4541 12.6082C21.0124 14.1335 16.8768 18 12 18C7.12317 18 2.98759 14.1335 1.54586 12.6082C1.21811 12.2615 1.21811 11.7385 1.54586 11.3918C2.98759 9.86647 7.12317 6 12 6C16.8768 6 21.0124 9.86647 22.4541 11.3918Z" fill="#130F26" fill-opacity="0.4" stroke="#130F26"></path>                                    <circle cx="12" cy="12" r="5" stroke="#130F26"></circle>                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    <mask mask-type="alpha" maskUnits="userSpaceOnUse" x="9" y="9" width="6" height="6">                                    <circle cx="12" cy="12" r="3" fill="#130F26"></circle>                                    </mask>                                    <circle opacity="0.53" cx="13.5" cy="10.5" r="1.5" fill="white"></circle>                               
-                                        </svg>                                    
-                                    </span>
-                                 </a>
-                                 <a class="btn btn-sm btn-icon btn-info" data-bs-toggle="tooltip" data-bs-placement="top" title="Reestablecer"  href="#">
-                                    <span class="btn-inner">
-                                        <svg class="icon-32" width="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">                                <path opacity="0.4" d="M18.8088 9.021C18.3573 9.021 17.7592 9.011 17.0146 9.011C15.1987 9.011 13.7055 7.508 13.7055 5.675V2.459C13.7055 2.206 13.5026 2 13.253 2H7.96363C5.49517 2 3.5 4.026 3.5 6.509V17.284C3.5 19.889 5.59022 22 8.16958 22H16.0453C18.5058 22 20.5 19.987 20.5 17.502V9.471C20.5 9.217 20.298 9.012 20.0465 9.013C19.6247 9.016 19.1168 9.021 18.8088 9.021Z" fill="currentColor"></path>                                <path opacity="0.4" d="M16.0842 2.56737C15.7852 2.25637 15.2632 2.47037 15.2632 2.90137V5.53837C15.2632 6.64437 16.1742 7.55437 17.2792 7.55437C17.9772 7.56237 18.9452 7.56437 19.7672 7.56237C20.1882 7.56137 20.4022 7.05837 20.1102 6.75437C19.0552 5.65737 17.1662 3.69137 16.0842 2.56737Z" fill="currentColor"></path>                                <path d="M14.3672 12.2364H12.6392V10.5094C12.6392 10.0984 12.3062 9.7644 11.8952 9.7644C11.4842 9.7644 11.1502 10.0984 11.1502 10.5094V12.2364H9.4232C9.0122 12.2364 8.6792 12.5704 8.6792 12.9814C8.6792 13.3924 9.0122 13.7264 9.4232 13.7264H11.1502V15.4524C11.1502 15.8634 11.4842 16.1974 11.8952 16.1974C12.3062 16.1974 12.6392 15.8634 12.6392 15.4524V13.7264H14.3672C14.7782 13.7264 15.1122 13.3924 15.1122 12.9814C15.1122 12.5704 14.7782 12.2364 14.3672 12.2364Z" fill="currentColor"></path>                                </svg>                                                                                      
-                                    </span>
-                                 </a>
-                             </div>
-                           </td>
-                        </tr>
-                     </tbody>
-                     <tfoot>
-                        <tr>
-                           <th>Ruta</th>
-                           <th>Estación</th>
-                           <th>Nombre</th>
-                           <th>Giro</th>
-                           <th>Puntuación</th>
-                           <th>Estatus</th>
-                           <th>Contacto</th>
-                           <th>Acción</th>
-                        </tr>
-                     </tfoot>
-                  </table>
+            <div class="col-xl-9 col-lg-8">
+               <div class="card">
+                  <div class="card-header d-flex justify-content-between">
+                     <div class="header-title">
+                        <h4 class="card-title">Comercio:</h4>
+                     </div>
+                  </div>
+                  <div class="card-body">
+                     <div class="new-user-info">
+                        <form>
+                           <div class="row">
+                              <div class="form-group col-md-12">
+                                 <label class="form-label" for="fname">Nombre:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Alfonso Días" disabled>
+                              </div>
+                              <hr>
+                                <h5 class="mb-3">Ubicación</h5>
+                                <div class="form-group col-md-6">
+                                 <label class="form-label" for="fname">Ciudad:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Bacalar" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Estado:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="Quintana Roo" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="fname">Localidad:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Bacalar" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Colonia:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="Americana" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="fname">Calle 1:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Calle 1" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Calle 2:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="Calle 2" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="fname">Calle 3:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Calle 3" disabled>
+                              </div>
+                              <div class="form-group col-md-6">
+                                 <label class="form-label" for="lname">Codigo Postal:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="85596" disabled>
+                              </div> 
+                           </div>                        
+                           </div>
+                           
+                        </form>
+                     </div>
+                  </div>
                </div>
             </div>
-         </div>
-      </div>
 </div>
 <!--Termina contenido de la pagina-->
       </div>
