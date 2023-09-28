@@ -376,17 +376,17 @@
                            <div class="row">
                               <div class="form-group col-md-12">
                                  <label class="form-label" for="fname">Nombre:</label>
-                                 <input type="text" class="form-control" id="fname" placeholder="Adventure Park" disabled>
+                                 <input type="text" class="form-control" id="fname" placeholder="Alfonso Días" disabled>
                               </div>
                               <hr>
                                 <h5 class="mb-3">Ubicación</h5>
                                 <div class="form-group col-md-6">
-                                 <label class="form-label" for="fname">Ruta:</label>
-                                 <input type="text" class="form-control" id="fname" placeholder="1" disabled>
+                                 <label class="form-label" for="fname">Ciudad:</label>
+                                 <input type="text" class="form-control" id="fname" placeholder="Bacalar" disabled>
                               </div>
                               <div class="form-group col-md-6">
-                                 <label class="form-label" for="lname">Estación:</label>
-                                 <input type="text" class="form-control" id="lname" placeholder="Bacalar" disabled>
+                                 <label class="form-label" for="lname">Estado:</label>
+                                 <input type="text" class="form-control" id="lname" placeholder="Quintana Roo" disabled>
                               </div>
                               <div class="form-group col-md-6">
                                  <label class="form-label" for="fname">Localidad:</label>
@@ -394,7 +394,7 @@
                               </div>
                               <div class="form-group col-md-6">
                                  <label class="form-label" for="lname">Colonia:</label>
-                                 <input type="text" class="form-control" id="lname" placeholder="COl" disabled>
+                                 <input type="text" class="form-control" id="lname" placeholder="Americana" disabled>
                               </div>
                               <div class="form-group col-md-6">
                                  <label class="form-label" for="fname">Calle 1:</label>
@@ -412,43 +412,7 @@
                                  <label class="form-label" for="lname">Codigo Postal:</label>
                                  <input type="text" class="form-control" id="lname" placeholder="85596" disabled>
                               </div> 
-                              <div class="form-group col-md-12">
-                                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8450.87762756955!2d-88.39157076580794!3d18.67454048990297!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f5bb13af78e53bb%3A0xbe3f9fb52652a59e!2sBalneario%20Municipal%20El%20Aserradero!5e1!3m2!1ses!2smx!4v1695530533049!5m2!1ses!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                              </div> 
-                           </div>
-                           <hr>
-                           <h5 class="mb-3">Lugar: </h5>
-                           <div class="row">
-                            <div class="form-group col-md-12">
-                                 <label class="form-label" for="fname">Descripción:</label>
-                                 <input type="text" class="form-control" id="fname" placeholder="Lugar agradable para pasar con toda la familia" disabled>
-                              </div>
-                              <div class="form-group col-md-6">
-                                 <label class="form-label" for="fname">Numero Maximo de personas:</label>
-                                 <input type="text" class="form-control" id="fname" placeholder="21" disabled>
-                              </div>
-                              <div class="form-group col-md-6">
-                                 <label class="form-label" for="lname">Tiempo Estimado en el lugar:</label>
-                                 <input type="text" class="form-control" id="lname" placeholder="35 minutos" disabled>
-                              </div>
-                              <div class="form-group col-md-6">
-                                 <label class="form-label" for="lname">Tiempo Estimado en el lugar:</label>
-                                 <input type="text" class="form-control" id="lname" placeholder="35 minutos" disabled>
-                              </div>  
-                              <div class="form-group col-md-12">
-                                <div class="galeria-Comercios-Admin">
-                                    <div style="background-image: url(imgs/bacalar1.jpeg);"></div>
-                                    <div style="background-image: url(imgs/bacalar2.jpg);"></div>
-                                    <div style="background-image: url(imgs/bacalar3.jpeg);"></div>
-                                    <div style="background-image: url(imgs/bacalar4.jpeg);"></div>
-                                    <div style="background-image: url(imgs/bacalar5.jpg);"></div>
-                                    <div style="background-image: url(imgs/bacalar6.jpg);"></div>
-                                    <div style="background-image: url(imgs/bacalar7.jpg);"></div>
-                                </div>
-                              </div>                            
-                           </div>
-                           <div align="center">
-                               <button type="submit" class="btn btn-danger">Bloquear comercio</button>
+                           </div>                        
                            </div>
                            
                         </form>
